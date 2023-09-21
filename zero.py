@@ -16,7 +16,7 @@ BY: Polar
 """)
 
 def display_menu():
-    print(Fore.GREEN + """
+    print(Fore.MAGENTA + """
     1: Phoenix-Tool (Hack Tools)      | 2: Phoenix-Paid-Tools
     3: Info (informazioni)
     """)
