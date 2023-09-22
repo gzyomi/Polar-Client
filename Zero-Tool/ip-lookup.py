@@ -20,7 +20,7 @@ def print_phone_details(phone_details):
 
 api_key = "22WfDqB635jMOWkxdeC1r2BXew1tXHLU"
 
-phone_number = input(Fore.CYAN+Scrivi il numero di telefono per localizzarlo: ")
+phone_number = input(Fore.CYAN+"Scrivi il numero di telefono per localizzarlo: ")
 
 phone_details = phone_locator(phone_number, api_key)
 print_phone_details(phone_details)
