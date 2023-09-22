@@ -53,4 +53,4 @@ if not url.__contains__("."):
 for i in range(0, threads):
     thr = threading.Thread(target=dos, args=(url,))
     thr.start()
-    print(str(i + 1) + " Phoenix Ddos!")
+    print(str(i + 1) + " Pacchetto Ddos Inviato")
