@@ -1,25 +1,34 @@
 import sys,os
 from colorama import Fore
 
-print(Fore.RED+"""
+print(Fore.CYAN+"""
 
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
-MADE BY POLAR
+                        88                        
+                        88                        
+                        88                        
+8b,dPPYba,   ,adPPYba,  88 ,adPPYYba, 8b,dPPYba,  
+88P'    "8a a8"     "8a 88 ""     `Y8 88P'   "Y8  
+88       d8 8b       d8 88 ,adPPPPP88 88          
+88b,   ,a8" "8a,   ,a8" 88 88,    ,88 88          
+88`YbbdP"'   `"YbbdP"'  88 `"8bbdP"Y8 88          
+88                                                
+88                                                
                                                                                                                    
 ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――
                                                                  
-BY: DEV7KNIGHT and ASJAD (contributor visa2code)
+BY: Polar
 """)
 
 def display_menu():
-    print(Fore.YELLOW + """
+    print(Fore.BLUE + """
     ―――――――――――――――――――――――――――――――――――――――――――――――――――――――
-    1. Ip-Scanner                   | 7. Sub-Domain-Scanner      
-    2. Discord-Nuke                 | 8. DDOS-TOOL
-    3. Subdirectory-Scanner         | 9. Discord-Token-Grabber
-    4. Email-Boomber                | 10. Keylogger 
-    5. Phone-Locator                | 11. Web-Crawler
-    6. Port-Scanner                 | 12. Reverse-Shell 
+    1. Localizza IP                 | 7. Scanner Dominio      
+    2. Discord-Nuker                | 8. DDOS
+    3. Web Scanner                  | 9. Discord-Token-Grabber
+    4. Email-Nuker                  | 10. Keylogger 
+    5. Localizza Telefono           | 11. Web-Crawler
+    6. Scanner Porte                | 12. Reverse-Shell 
     ――――――――――――――――――――――――――――――――――――――――――――――――――――――――
     """)
 
